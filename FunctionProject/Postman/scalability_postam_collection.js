@@ -16,13 +16,13 @@
 				"method": "POST",
 				"header": [],
 				"body": {
-						"mode": "raw",
-						"raw": "{\n\t\"nth\":1000000\n}",
-						"options": {
-									"raw": {
-											"language": "json"
-									}
+					"mode": "raw",
+					"raw": "{\n\t\"nth\":1000000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
 						}
+					}
 				},
 
 				"url": {
