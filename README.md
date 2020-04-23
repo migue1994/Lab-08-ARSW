@@ -93,10 +93,10 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
     - Desea proporcionar una imagen personalizada en la que ejecutar sus funciones.
 
 
-* ¿Por qué la memoization falla o no funciona de forma correcta?
+* ¿Por qué la memorization falla o no funciona de forma correcta?
 
-    Esto ocurre debido 
-
+    Esto ocurre debido a que para que la memorización funcione correctamente, la función que se desea optimizar no debe realizar los mismos cálculos más de una vez. Ya que de lo contrario, se puede producir un error debido a que la función excedería la capacidad de memoria que puede ofrecer la máquina.
+    
 * ¿Cómo funciona el sistema de facturación de las Function App?
 
     El uso se agrega a nivel de aplicación de función y solo cuenta el tiempo que se ejecuta el código de función. Las siguientes son unidades para facturación:
