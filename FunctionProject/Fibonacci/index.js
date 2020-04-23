@@ -25,7 +25,7 @@ mem_values={
 }
 
 function fibonacci(nth){
-    if(nth in Object.keys(mem_values)){
+    if(mem_values[nth]!== undefined){
         return mem_values[nth];
     }
 
